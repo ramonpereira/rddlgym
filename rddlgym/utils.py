@@ -21,13 +21,13 @@ import rddlgym
 
 import os
 import json
-from enum import Enum, auto
+from enum import Enum
 
 
 class Mode(Enum):
-    RAW = auto()
-    AST = auto()
-    SCG = auto()
+    RAW = 1
+    AST = 2
+    SCG = 3
 
 
 def read_db():
